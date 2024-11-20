@@ -18,6 +18,9 @@ const config: Config = {
         'wordle-clone': [
           'Nunito', 'Nunito Sans', 'sans-serif'
         ]
+      },
+      gridTemplateColumns: {
+        'wordle-board': 'repeat(5, 1fr)'
       }
     }
   },
