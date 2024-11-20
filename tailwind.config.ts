@@ -13,6 +13,11 @@ const config: Config = {
         'present': "#F0C808",
         'wrong': "#626267",
         'background': "#EDF2F4"
+      },
+      fontFamily: {
+        'wordle-clone': [
+          'Nunito', 'Nunito Sans', 'sans-serif'
+        ]
       }
     }
   },
