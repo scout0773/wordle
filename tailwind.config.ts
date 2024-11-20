@@ -21,6 +21,10 @@ const config: Config = {
       },
       gridTemplateColumns: {
         'wordle-board': 'repeat(5, 1fr)'
+      },
+      animation: {
+        'tile-flip': 'flip 0.5s ease',
+        'tile-shake': 'shake 0.5s ease-in-out'
       }
     }
   },
