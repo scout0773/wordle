@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --color-correct: "#70AE6E";
+    --color-present: "#F0C808";
+    --color-wrong: "#626267";
+    --color-bg: "#EDF2F4";
+}
+
+body {
+    @apply bg-background font-wordle-clone;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
