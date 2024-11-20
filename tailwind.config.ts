@@ -1,14 +1,20 @@
 import { type Config } from "tailwindcss";
-import { fontFamily } from "tailwindcss/defaultTheme";
 
-export default {
-  content: ["./src/**/*.tsx"],
+const config: Config = {
+  content: [
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}"
+  ],
   theme: {
     extend: {
-      fontFamily: {
-        sans: ["var(--font-geist-sans)", ...fontFamily.sans],
-      },
-    },
+      colors: {
+        'correct': "#70AE6E",
+        'present': "#F0C808",
+        'wrong': "#626267",
+        'background': "#EDF2F4"
+      }
+    }
   },
   plugins: [],
 } satisfies Config;
