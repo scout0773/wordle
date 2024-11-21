@@ -1,4 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
+import LetterTile from './LetterTile';
+
+const WORD_LENGTH = 5;
+const MAX_ATTEMPTS = 6;
 
 const GameBoard: React.FC = () => {
     const [board, setBoard] = useState<string[][]>(
